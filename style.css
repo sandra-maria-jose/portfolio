@@ -1,4 +1,4 @@
-/* Reset some default styles to ensure consistency */
+
 body, h1, h2, p {
     margin: 0;
     padding: 0;
@@ -50,23 +50,3 @@ footer {
     padding: 10px;
 }
 
-/* Specific styles for each page */
-#home {
-    /* Add specific styles for the home page content */
-}
-
-#about {
-    /* Add specific styles for the About Me page content */
-}
-
-#gallery {
-    /* Add specific styles for the Gallery page content */
-}
-
-#contact {
-    /* Add specific styles for the Contact Me page content */
-}
-
-#signup {
-    /* Add specific styles for the Sign Up page content */
-}
