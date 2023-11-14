@@ -1,10 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Your Portfolio - Home</title>
-    <!-- Add your CSS and JavaScript links here for styling and animations -->
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <style>
+      body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #333;
+      }
+
+      header {
+        background-color: #3498db;
+        color: white;
+        text-align: center;
+        padding: 1rem 0;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+
+      nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        margin-right: 15px;
+      }
+
+      nav a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        transition: color 0.3s ease;
+      }
+
+      nav a:hover {
+        color: #ecf0f1;
+      }
+
+      main {
+        padding-top: 80px;
+        text-align: center;
+      }
+
+      section {
+        background-color: white;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+        max-width: 800px;
+        margin: auto;
+        animation: fadeIn 1s ease-out;
+      }
+
+      h2 {
+        color: #3498db;
+      }
+
+      p {
+        color: #555;
+        line-height: 1.6;
+      }
+
+      footer {
+        background-color: #3498db;
+        color: white;
+        text-align: center;
+        padding: 1rem 0;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      /* Responsive Design */
+      @media (max-width: 600px) {
+        section {
+          padding: 20px;
+        }
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -23,46 +122,28 @@
     <main>
       <section>
         <h2>Welcome to My Portfolio</h2>
-        <!-- Add your home page content here -->
-
         <p>
-          Hello and welcome to my portfolio website. I'm thrilled to have you
-          here!
+          Hello and welcome to my portfolio website. I'm thrilled to have you here!
         </p>
 
         <p>
-          Allow me to introduce myself: I am a passionate computer science
-          enthusiast, and this portfolio serves as a showcase of my journey,
-          accomplishments, and projects in the world of technology.
+          Allow me to introduce myself: I am a passionate computer science enthusiast, and this portfolio serves as a showcase of my journey, accomplishments, and projects in the world of technology.
         </p>
 
         <p>
-          Throughout my academic and professional career, I have dedicated
-          myself to learning, growing, and making a positive impact in the field
-          of computer science. I have a strong foundation in software
-          development, data analysis, and problem-solving, and I'm always eager
-          to take on new challenges.
+          Throughout my academic and professional career, I have dedicated myself to learning, growing, and making a positive impact in the field of computer science. I have a strong foundation in software development, data analysis, and problem-solving, and I'm always eager to take on new challenges.
         </p>
 
         <p>
-          This portfolio will give you a glimpse into my skills and experiences.
-          You'll find a collection of projects, both personal and academic, that
-          highlight my technical abilities and creativity. Whether it's web
-          development, mobile applications, data analysis, or any other area of
-          computer science, I'm excited to share my work with you.
+          This portfolio will give you a glimpse into my skills and experiences. You'll find a collection of projects, both personal and academic, that highlight my technical abilities and creativity. Whether it's web development, mobile applications, data analysis, or any other area of computer science, I'm excited to share my work with you.
         </p>
 
         <p>
-          Feel free to explore the various sections of my portfolio to get a
-          deeper understanding of my background and capabilities. If you have
-          any questions or want to get in touch, please don't hesitate to use
-          the contact form or reach out to me using the provided contact
-          details.
+          Feel free to explore the various sections of my portfolio to get a deeper understanding of my background and capabilities. If you have any questions or want to get in touch, please don't hesitate to use the contact form or reach out to me using the provided contact details.
         </p>
 
         <p>
-          Thank you for visiting, and I hope you enjoy your time here. Together,
-          we can explore the possibilities of technology and innovation.
+          Thank you for visiting, and I hope you enjoy your time here. Together, we can explore the possibilities of technology and innovation.
         </p>
       </section>
     </main>
