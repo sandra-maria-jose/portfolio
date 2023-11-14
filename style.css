@@ -1,0 +1,72 @@
+/* Reset some default styles to ensure consistency */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Specific styles for each page */
+#home {
+    /* Add specific styles for the home page content */
+}
+
+#about {
+    /* Add specific styles for the About Me page content */
+}
+
+#gallery {
+    /* Add specific styles for the Gallery page content */
+}
+
+#contact {
+    /* Add specific styles for the Contact Me page content */
+}
+
+#signup {
+    /* Add specific styles for the Sign Up page content */
+}
